@@ -1,7 +1,7 @@
 print("Title of program: Post-exam/encouragement bot")
 print()
 while True:
-  description = input("How do you feel after during the post exam activity?")
+  description = input("How do you feel after the post exam activities?")
 
   list_of_words = description.split()
 
@@ -13,7 +13,7 @@ while True:
     
     if each_word == "bored":
       feelings_list.append("bored")
-      encouragement_list.append("google a joke lah, or go eat food, or find something to do.")
+      encouragement_list.append("google a joke lah, or go eat food, or find something else that you like to do. You can always revise too!")
       counter += 1
     if each_word == "results":
       feelings_list.append("results")
@@ -28,7 +28,7 @@ while True:
       counter += 1
     if each_word == "lazy":
       feelings_list.append("lazy")
-      encouragement_list.append("You can relax for awhile but remember to plan your time wisely.")
+      encouragement_list.append("You can relax for a while but remember to plan your time wisely.")
       counter += 1
     if each_word == "excited":
       feelings_list.append("excited")
@@ -44,11 +44,11 @@ while True:
       counter += 1
     if each_word == "worried":
       feelings_list.append("worried")
-      encouragement_list.append("Don't be too stressed out, I'm sure you can do it !")
+      encouragement_list.append("Don't be too stressed out, I'm sure you can do it ! Worrying after a stressfulis suffering twice!")
       counter += 1
     if each_word == "relieved":
       feelings_list.append("relieved")
-      encouragement_list.append("Same! Enjoy yourslef after the stressful exam")
+      encouragement_list.append("Same! Enjoy yourslef after the stressful exams")
       counter += 1
      
   if counter == 0:
